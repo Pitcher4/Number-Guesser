@@ -19,7 +19,7 @@ for i in range(NUMBER_OF_GUESSES):
 		break
 	# Check if number too high
 	elif guess > number:
-		print("Your guess was too high")
+		print("Your guess was too high.")
 	# Check if number too low
 	elif guess < number:
 		print("Your guess was too low.")
